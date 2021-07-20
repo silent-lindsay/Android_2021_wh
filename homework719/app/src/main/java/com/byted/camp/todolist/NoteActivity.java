@@ -57,9 +57,11 @@ public class NoteActivity extends AppCompatActivity {
 //        OpenDraft( );
         editText.setFocusable(true);
         editText.requestFocus();
+
         SharedPreferences sp = getPreferences(Activity.MODE_PRIVATE);
         String draftext = sp.getString("Draft","") ;
         editText.setText(draftext);
+
         InputMethodManager inputManager = (InputMethodManager)
                 getSystemService(Context.INPUT_METHOD_SERVICE);
         if (inputManager != null) {

@@ -1,0 +1,4 @@
+#Tue Jul 20 19:57:30 CST 2021
+base.0=D\:\\study\\Android\\my_projects_2021\\homework720\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex
